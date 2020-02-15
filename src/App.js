@@ -1,25 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import AnimationsHexGridExample from './components/animated/App'
+// import BasicBoard from './components/basic-board/App'
+// import CustomGrid from './components/custom-grid/App'
+// import DragAndDrop from './components/drag-and-drop/App'
+// import PatternSwap from './components/pattern-swap/App'
+import Templates from './components/templates/App'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Templates />
   );
 }
 
